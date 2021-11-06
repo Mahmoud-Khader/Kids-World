@@ -1,0 +1,226 @@
+/* *{
+  box-sizing: border-box;
+} */
+/* body{
+    width: 0 auto;
+} */
+
+
+
+/* Container */
+/* #container {
+  position:absolute;
+  height:36%;
+  width:100%;
+  left:0%;
+  top: 0%;
+ 
+  background:transparent;
+} */
+
+/* Balls
+#redball, #greenball, #blueball  {
+  position:absolute;
+  height:70px;
+  width: 100px;
+  border-radius: 50px;
+}
+#redball {
+    height: 90px;
+    width: 90px;
+    background-color:green;
+    border-radius: 50%;
+}
+#greenball {
+    width: 50px;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 25px solid red;
+    height: 20px;
+}
+#blueball {
+    height: 50px;
+  width: 100px;
+  border-left:80px ;
+  border-right: 80px;
+  background-color:rgb(24, 75, 218);
+  }
+ */
+
+
+
+
+
+
+
+
+/*  
+
+.star-rating form {
+    display:none;
+}
+.star-rating .thanks-msg {
+    display: none;
+    font-size: 20px;
+    margin: 40px auto;
+    color: #4caf50;
+    background-color: rgba(76, 175, 80, 0.1411764705882353);
+    padding: 8px 20px;
+    border-left: 3px solid #4caf50;
+    border-radius: 20px;
+}
+.star-rating input {
+    display:none;
+}
+.star-rating {
+    margin: 5px auto;
+    display: table;
+    width: 300px;
+    
+}
+.star-rating label {
+    padding: 10px;
+    float: right;
+    font-size:20px;
+    color: rgb(185, 92, 92);
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+    color: #ffc107;
+}
+.star-rating input:checked ~ label {
+    color: #ffc107;
+}
+.star-rating form .rating-reaction:before {
+    width: 100%;
+    float: left;
+    color: #ffc107;
+}
+.star-rating .rating-1:checked ~ form .rating-reaction:before {
+    content: "I hate it";
+}
+.star-rating .rating-2:checked ~ form .rating-reaction:before {
+    content: "I don't like it";
+}
+.star-rating .rating-3:checked ~ form .rating-reaction:before {
+    content: "It is good";
+}
+.star-rating .rating-4:checked ~ form .rating-reaction:before {
+    content: "I like it";
+}
+.star-rating .rating-5:checked ~ form .rating-reaction:before {
+    content: "I love it";
+}
+.star-rating input:checked ~ form {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.star-rating form .rating-reaction {
+    font-size: 24px;
+    float: left;
+    text-transform: capitalize;
+}
+.star-rating form .submit-rating {
+    border: none;
+    outline: none;
+    background: #795548;
+    color: #ffc107;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    cursor: pointer;
+    float: right;
+}
+form .submit-rating:hover {
+    background-color: #333;
+} 
+*/
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */ */
+
+
+
+.star-rating form {
+  display:none;
+}
+.star-rating .thanks-ms {
+  display: none;
+  font-size: 20px;
+  margin: 40px auto;
+  color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.1411764705882353);
+  padding: 8px 20px;
+  border-left: 3px solid #4caf50;
+  border-radius: 20px;
+}
+.star-rating input {
+  display:none;
+}
+.star-rating {
+  margin: 5px auto;
+  display: table;
+  width: 300px;
+  
+}
+.star-rating label {
+  padding: 10px;
+  float: right;
+  font-size:20px;
+  color: rgb(185, 92, 92);
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+  color: #ffc107;
+}
+.star-rating input:checked ~ label {
+  color: #ffc107;
+}
+.star-rating form .rating-reactio:before {
+  width: 100%;
+  float: left;
+  color: #ffc107;
+}
+.star-rating #rating-1:checked ~ form .rating-reactio:before {
+  content: "I hate it";
+}
+.star-rating #rating-2:checked ~ form .rating-reactio:before {
+  content: "I don't like it";
+}
+.star-rating #rating-3:checked ~ form .rating-reactio:before {
+  content: "It is good";
+}
+.star-rating #rating-4:checked ~ form .rating-reactio:before {
+  content: "I like it";
+}
+.star-rating #rating-5:checked ~ form .rating-reaction:before {
+  content: "I love it";
+}
+.star-rating input:checked ~ form {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding-top: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.star-rating form .rating-reactio {
+  font-size: 24px;
+  float: left;
+  text-transform: capitalize;
+}
+.star-rating form .submit-ratin {
+  border: none;
+  outline: none;
+  background: #795548;
+  color: #ffc107;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+  float: right;
+}
+form .submit-ratin:hover {
+  background-color: #333;
+} 

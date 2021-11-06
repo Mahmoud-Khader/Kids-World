@@ -1,0 +1,156 @@
+
+body{
+    width: 0 auto;
+}
+header {
+    display: block;
+  
+}
+
+div#body p{
+
+    color: #e93b81;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+header nav {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    height: 120px;
+    background-image: url('../images/home2.jpg');
+   
+  }
+  header nav ul li {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 50px;
+} 
+  header nav ul{
+    
+      float: right;
+      margin-right: 30px;
+      margin-top: -30px;
+  }
+  header nav ul li a {
+      text-decoration: none;
+      color: #e93b81;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+    header nav ul li a:hover{
+   background-color:black;
+   font-size: 18px;
+    }
+    div h1{
+        text-align: left;
+        float: inline-end;
+        color: #e93b81;
+        font-family: 'Frosty', sans-serif;
+        font-size: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+
+label{
+    color: #e93b81;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+fieldset{
+    color: #e93b81;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-style:groove;
+    
+    font-weight: bold;
+    margin-top: 10%;
+    padding: 30px;
+}
+
+
+
+main{
+    background-image: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+}
+
+fieldset input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin :8px 0;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 16px;
+}
+
+#btn{
+background-color: #e93b81;
+border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+width: 20%;
+border-radius: 50px 20px;
+font-size: 20px;
+margin-left: 41%;
+font-family: cursive;
+}
+
+footer{
+    background-image: url('../images/home2.jpg');
+      height: 120px;
+  }
+
+  #social a {
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 35px;
+  }
+  #social a:first-child{
+    margin-left: 100px;
+  }
+  #social a img{
+    width: 50px;
+    height: 50px;
+  }
+   #contact {
+    color: #e93b81;
+    margin-right: 10px;
+    font-size: 18px;
+    transform: translateY(30%);
+    float: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 7px;
+  }
+
+    #name{
+        width: 1500px;
+    }
+
+    #email{
+        width: 1500px;
+    }
+
+    #number{
+        width: 1500px;   
+    }

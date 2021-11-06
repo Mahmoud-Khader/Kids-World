@@ -1,0 +1,165 @@
+
+
+body{
+    width: 0 auto;
+}
+
+header {
+    display: block;
+    /* margin-bottom: 100px; */
+    
+}
+
+header nav {
+    /* position: fixed; */
+    display: block;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    height: 140px;
+    background-image: url('../images/home2.jpg') ;
+    background-color:yellow; 
+}
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+header nav ul{
+    /* float: inline-end; */
+    /* margin-left: 500px; */
+    float:right;
+    margin-right: 30px;
+    margin-top: -90px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: #e93b81;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+header nav ul li a:hover{
+    background-color:black;
+    font-size: 18px;
+}
+ul#social{
+    margin: 0px;
+}
+
+div h1{
+    text-align: left;
+    float:inline-end;
+    color: #e93b81;
+    font-family: 'Frosty', sans-serif;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* div img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}  */
+
+main{
+  background-color: #e93b81;
+}
+
+
+
+
+
+
+.container{
+ display: inline-block;
+padding: 50px 100px;
+margin: 47px;
+
+}
+
+img.imgcollect{
+    width:302px;
+    height: 200px;
+
+}
+h2{
+    text-decoration: none;
+    color:brown;
+}
+h2#ww{
+    color:rgb(83, 83, 233);
+    text-decoration: none;
+}
+#ss{
+    color:rgb(151, 202, 10);
+}
+
+div#render {
+    display:inline;
+    width: 100px;
+}
+
+img.ras-img{
+    width: 200px;
+}
+
+div#render{
+    
+    color:rgb(0, 174, 255);
+    text-align:center;
+    font-size:x-large;
+    display:ruby-base;
+}
+
+div#audiotext a{
+    color: rgb(83, 83, 233);
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 117px;
+}
+div#vediotext a{
+    text-decoration: none;
+    font-size: x-large;
+    color:rgb(151, 202, 10);
+    margin-right: 125px;
+
+
+}
+
+footer{
+    background-image: url('../images/home2.jpg');
+      height: 120px;
+  }
+  #social a {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 30px;
+      padding-top: 35px;
+    }
+    #social a:first-child{
+      margin-left: 100px;
+    }
+    #social a img{
+      width: 50px;
+      height: 50px;
+    }
+    #contact {
+      color: #e93b81;
+      margin-right: 10px;
+      font-size: 18px;
+      transform: translateY(30%);
+      float: right;
+      font-family: sans-serif;
+      font-weight: bold;
+      padding-top: 7px;
+    }
+
+.imgcollect{
+    border-radius: 50%;
+    margin-right: 45px;
+    padding-left: 35px;
+
+}
